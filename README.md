@@ -6,8 +6,13 @@ This VBA module will protect / unprotect all sheets from all opened workbooks ba
 ```vba
 Const bProtectMode As Boolean = False
 Const bProtectWorkbook As Boolean = False
-Const sPassword As String = "]"
+Const sPassword As String = ""
 Const bAllowFormattingColumns As Boolean = True
 Const bAllowSorting As Boolean = True
 Const bAllowFiltering As Boolean = True
 ```
+
+* bProtectMode = Enable or disable sheet protection on the currently opened workbooks
+* bProtectWorkbook = Enable or disable workbook protection on the currently opened workbooks
+* sPassword = Set the protection password (the same password will be used for both sheet and workbook protection)
+* bAllowFormattingColumns, bAllowSorting, bAllowFiltering = Additional sheet protection settings
