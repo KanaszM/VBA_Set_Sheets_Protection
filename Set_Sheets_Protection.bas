@@ -4,7 +4,7 @@ Sub Set_Sheets_Protection()
 ' User Settings
 Const bProtectMode As Boolean = False
 Const bProtectWorkbook As Boolean = False
-Const sPassword As String = "]"
+Const sPassword As String = ""
 Const bAllowFormattingColumns As Boolean = True
 Const bAllowSorting As Boolean = True
 Const bAllowFiltering As Boolean = True
